@@ -4,8 +4,8 @@ import numpy as np
 from matplotlib import pyplot as plt
   
 # reading image
-img = cv2.imread('data/data/gunshots/Hf73.jpg')
-# img = cv2.imread('images/shapes_init.png')
+# img = cv2.imread('data/data/gunshots/Hf73.jpg')
+img = cv2.imread('images/shapes_init.png')
   
 # converting image into grayscale image
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
